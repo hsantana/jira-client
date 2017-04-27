@@ -2,6 +2,10 @@ package net.rcarz.jiraclient;
 
 import org.junit.Test;
 
+import net.hsantana.jiraclient.Filter;
+import net.hsantana.jiraclient.JiraClient;
+import net.hsantana.jiraclient.JiraException;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 

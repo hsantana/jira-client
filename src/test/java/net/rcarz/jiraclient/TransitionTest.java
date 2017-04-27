@@ -1,5 +1,8 @@
 package net.rcarz.jiraclient;
 
+import net.hsantana.jiraclient.RestClient;
+import net.hsantana.jiraclient.Status;
+import net.hsantana.jiraclient.Transition;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
 import org.joda.time.DateTime;

@@ -9,6 +9,14 @@ import java.net.URI;
 import java.util.List;
 import java.util.Map;
 
+import net.hsantana.jiraclient.Issue;
+import net.hsantana.jiraclient.IssueType;
+import net.hsantana.jiraclient.JiraException;
+import net.hsantana.jiraclient.RestClient;
+import net.hsantana.jiraclient.User;
+import net.hsantana.jiraclient.Version;
+import net.hsantana.jiraclient.Votes;
+import net.hsantana.jiraclient.Watches;
 import net.sf.json.JSON;
 import net.sf.json.JSONNull;
 

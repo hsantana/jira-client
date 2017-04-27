@@ -1,5 +1,7 @@
 package net.rcarz.jiraclient;
 
+import net.hsantana.jiraclient.Issue;
+import net.hsantana.jiraclient.TimeTracking;
 import net.sf.json.JSONObject;
 import org.junit.Test;
 

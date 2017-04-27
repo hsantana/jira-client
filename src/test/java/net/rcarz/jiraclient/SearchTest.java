@@ -2,6 +2,13 @@ package net.rcarz.jiraclient;
 
 import org.junit.Test;
 
+import net.hsantana.jiraclient.ChangeLog;
+import net.hsantana.jiraclient.ChangeLogEntry;
+import net.hsantana.jiraclient.ChangeLogItem;
+import net.hsantana.jiraclient.Issue;
+import net.hsantana.jiraclient.JiraClient;
+import net.hsantana.jiraclient.JiraException;
+
 import java.nio.channels.Pipe;
 import java.util.ArrayList;
 import java.util.Iterator;

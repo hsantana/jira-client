@@ -1,5 +1,9 @@
 package net.rcarz.jiraclient;
 
+import net.hsantana.jiraclient.IssueType;
+import net.hsantana.jiraclient.JiraException;
+import net.hsantana.jiraclient.RestClient;
+import net.hsantana.jiraclient.RestException;
 import net.sf.json.JSONObject;
 import org.junit.Test;
 import org.powermock.api.mockito.PowerMockito;
