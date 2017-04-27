@@ -487,9 +487,9 @@ public class JiraClient {
      * @return all versions; 
      * @throws JiraException failed to obtain the versions list.
      */
-    public List<Version> getVersions(String id) throws JiraException {
+    public List<Version> getVersions(String projectId) throws JiraException {
         try {
-            URI uri = restclient.buildURI(Resource.getBaseUri() + "project/"+id+"/versions");
+            URI uri = restclient.buildURI(Resource.getBaseUri() + "project/"+projectId+"/versions");
             JSON response = restclient.get(uri);
             JSONArray versionsArray = JSONArray.fromObject(response);
 
